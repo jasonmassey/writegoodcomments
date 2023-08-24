@@ -1,6 +1,6 @@
 # WriteGoodComments Utility by @jasonmassey
 
-This is an attempt to get an LLM to write me something useful very quickly
+This is an attempt to get an LLM to write me something useful very quickly. 🏗️ Still in progress 😵
 
 ![Version](https://img.shields.io/badge/version-1.0-blue.svg)
 
