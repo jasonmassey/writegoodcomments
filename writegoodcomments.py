@@ -1,18 +1,10 @@
-#!/usr/bin/env python3
-
 import os
-import sys
 import argparse
 import getpass
 import openai
 
 # Constants
 CONFIG_FILE_PATH = os.path.expanduser("~/.writegoodcomments")
-
-# Set up OpenAI API key
-openai.api_key = os.environ.get("OPENAI_API_KEY")
-
-# Utility functions
 
 def get_openai_api_key():
     api_key = input("Enter your OpenAI API key: ")
@@ -33,7 +25,6 @@ def get_file_extension(file_path):
     return ext.lower()
 
 def generate_comments(code, signature):
-    # Use OpenAI API to generate comments
     response = openai.Completion.create(
         engine="davinci",
         prompt=code,
