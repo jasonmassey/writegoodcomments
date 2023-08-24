@@ -14,20 +14,31 @@ The **WriteGoodComments** utility is your clever coding companion that adds a to
 
 ## Installation
 
-1. Clone this repository:
+1. **Via Homebrew (Recommended)**:
+
+   Install the utility easily with Homebrew, the developer's best friend:
+
+   ```bash
+   brew tap jasonmassey/writegoodcomments
+   brew install writegoodcomments
+   ```
+
+2. **Manual Installation**:
+
+   Clone this repository:
 
    ```bash
    git clone https://github.com/jasonmassey/writegoodcomments.git
    cd writegoodcomments
    ```
 
-2. Make the script executable:
+   Make the script executable:
 
    ```bash
    chmod +x writegoodcomments.py
    ```
 
-3. Install the required dependencies (assuming you have Python and pip installed):
+   Install the required dependencies (assuming you have Python and pip installed):
 
    ```bash
    pip install openai
