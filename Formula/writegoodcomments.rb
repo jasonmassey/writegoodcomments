@@ -3,6 +3,7 @@ class Writegoodcomments < Formula
   homepage "https://github.com/jasonmassey/writegoodcomments"
   url "https://github.com/jasonmassey/writegoodcomments/archive/refs/tags/v1.0.tar.gz"
   sha256 "c7fa0176882194b60c65893092976479a1209b6c740b7f735011a865918ec830"
+  license "UNLICENSE"
 
   depends_on "python@3.9"
 
@@ -23,4 +24,3 @@ class Writegoodcomments < Formula
     system "#{bin}/writegoodcomments", "--version"
   end
 end
-
