@@ -46,35 +46,39 @@ The **WriteGoodComments** utility is your clever coding companion that adds a to
 
 ## Usage
 
-- For instructions:
+Once you've installed the **WriteGoodComments** utility, you can enjoy the magic of AI-generated comments right from your terminal! Here are some examples of how to use it:
+
+- For instructions and available options:
 
    ```bash
-   ./writegoodcomments.py
+   writegoodcomments
    ```
 
 - To generate comments in a specific file:
 
    ```bash
-   ./writegoodcomments.py your_file.js
+   writegoodcomments your_file.js
    ```
 
 - To enhance JavaScript files:
 
    ```bash
-   ./writegoodcomments.py *.js
+   writegoodcomments *.js
    ```
 
 - To change the comment signature (e.g., to "randy--"):
 
    ```bash
-   ./writegoodcomments.py -changesig randy-- *.js
+   writegoodcomments -changesig randy-- *.js
    ```
 
 - To recursively enhance all code files in the current directory:
 
    ```bash
-   ./writegoodcomments.py -r .
+   writegoodcomments -r .
    ```
+
+Remember, after installing via Homebrew, the `writegoodcomments` command is available system-wide, making it super convenient to sprinkle creativity into your codebase with just a few keystrokes.
 
 ## Configuration
 
